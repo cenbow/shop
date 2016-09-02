@@ -64,7 +64,7 @@
 				<a class="bottom" href="javascript:;"></a>
 			</div>
 			<div class="copy">
-				<p>Powered by <a href="javascript:;" target="_blank">Haidao</a><br/>Copyright 2013-2016 HeYiYun</p>
+				<p>Powered by <a href="javascript:;" target="_blank">Heyi</a><br/>Copyright 2013-2016 HeYiYun</p>
 			</div>
 		</div>
 		<div class="wrapper" id="main">

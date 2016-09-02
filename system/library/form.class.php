@@ -234,7 +234,7 @@ class form {
         if(!defined('INIT_EDITOR')) {
             $string .= '<script type="text/javascript" charset="utf-8" src="'.__ROOT__.'statics/js/editor/umeditor.config.js"></script>';
             $string .= '<script type="text/javascript" charset="utf-8" src="'.__ROOT__.'statics/js/editor/umeditor.js"></script>';
-			$string .= '<script type="text/javascript" charset="utf-8" src="'.__ROOT__.'statics/js/editor/haidaotag.js"></script>';
+			$string .= '<script type="text/javascript" charset="utf-8" src="'.__ROOT__.'statics/js/editor/heyitag.js"></script>';
             $string .= '<script type="text/javascript" charset="utf-8" src="'.__ROOT__.'statics/js/editor/lang/zh-cn/zh-cn.js"></script>';
             $string .= '<link href="'.__ROOT__.'statics/js/editor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">';
             define('INIT_EDITOR', true);
