@@ -72,7 +72,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="td column-narrow">董浩</div>
+								<div class="td column-narrow">子豪</div>
 								<div class="td column-narrow">
 									<b class="yahei">￥89.00</b><br />
 									<span class="text-gray songti text-small">在线支付</span>
@@ -122,7 +122,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="td column-narrow">董浩</div>
+								<div class="td column-narrow">子豪</div>
 								<div class="td column-narrow">
 									<b class="yahei">￥89.00</b><br />
 									<span class="text-gray songti text-small">在线支付</span>
@@ -160,7 +160,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="td column-narrow">董浩</div>
+								<div class="td column-narrow">子豪</div>
 								<div class="td column-narrow">
 									<b class="yahei">￥89.00</b><br />
 									<span class="text-gray songti text-small">在线支付</span>

@@ -106,25 +106,7 @@
 							</tr>
 						</tbody>
 					</table>
-                    <table cellpadding="0" cellspacing="0" class="margin-top border bg-white layout">
-						<tbody>
-							<tr class="bg-gray-white line-height-40 border-bottom">
-								<th class="text-left padding-big-left">开发团队</th>
-							</tr>
-							<tr class="border-bottom">
-								<td class="text-left today-sales padding-big padding-small-top padding-small-bottom line-height-40">
-									<span class="fl">总策划兼产品经理&emsp;</span>
-									<span class="margin-large-left fl">董&emsp;浩</span>
-								</td>
-							</tr>
-							<tr class="border-bottom">
-								<td class="text-left today-sales padding-big padding-small-top padding-small-bottom line-height-40">
-									<span class="fl">产品设计与研发团队</span>
-									<span class="margin-large-left fl">夏雪强&emsp;李春林&emsp;孔智翱&emsp;王小龙&emsp;饶家伟&emsp;秦秀荣</span>
-								</td>
-							</tr>
-						</tbody>
-					</table>
+
 				</div>
 				<div class="fl w50 padding-small-left">
 					<table cellpadding="0" cellspacing="0" class="border bg-white layout">
@@ -182,20 +164,6 @@
 								<td class="text-left today-sales padding-big padding-small-top padding-small-bottom line-height-40">
 									<span class="fl">数据库信息</span>
 									<span class="fr">MySQL&nbsp;<?php echo mysql_get_server_info();?>/数据库大小&nbsp;<em data-id="dbsize">0</em>M</span>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-                    <table cellpadding="0" cellspacing="0" class="margin-top border bg-white layout">
-						<tbody>
-							<tr class="bg-gray-white line-height-40 border-bottom">
-								<th class="text-left padding-big-left">应用中心</th>
-							</tr>
-							<tr>
-								<td>
-									<div class="text-left today-sales layout border-top border-white fl" style="padding:0 20px;height:65px;line-height:64px;background-color:#fbfbfb;">
-                                        <span class="fl">您有 <b class="text-main">0</b> 款应用可升级&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- <a class="text-main" href="">详情</a> --></span>
-                                    </div>
 								</td>
 							</tr>
 						</tbody>
