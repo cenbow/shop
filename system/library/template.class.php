@@ -132,7 +132,7 @@ class template
     }
 
     /**
-     * 合一标签
+     * 奕瑞标签
      * @param string $op
      * @param string $data
      * @param string $html

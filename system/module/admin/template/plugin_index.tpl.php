@@ -16,9 +16,9 @@
 					<a id="show-tip" data-open="true" href="javascript:;">关闭操作提示</a>
 				</div>
 				<div class="tips-txt padding-small-top layout">
-					<p>- 插件安装请先认证站点，如未出现插件，请到合一云商官网控制台推送</p>
-					<p>- 合一云商插件不支持本地安装或推送，确保站点在外网并能够访问</p>
-					<p>- 获取新插件请到合一云商应用市场 点击进入</p>
+					<p>- 插件安装请先认证站点，如未出现插件，请到奕瑞官网控制台推送</p>
+					<p>- 奕瑞插件不支持本地安装或推送，确保站点在外网并能够访问</p>
+					<p>- 获取新插件请到奕瑞应用市场 点击进入</p>
 				</div>
 			</div>
 			<div class="table-work border margin-tb">

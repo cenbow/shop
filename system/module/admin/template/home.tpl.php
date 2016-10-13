@@ -145,7 +145,7 @@
 							<tr class="border-bottom">
 								<td class="text-left today-sales padding-big padding-small-top padding-small-bottom line-height-40">
 									<span class="fl">系统版本</span>
-									<span class="fr">合一云商<?php if(HD_BRANCH == 'stable'){?>稳定版&nbsp;<?php }else{?>开发版&nbsp;<?php }?>v<?php echo HD_VERSION ?></span>
+									<span class="fr">奕瑞<?php if(HD_BRANCH == 'stable'){?>稳定版&nbsp;<?php }else{?>开发版&nbsp;<?php }?>v<?php echo HD_VERSION ?></span>
 								</td>
 							</tr>
 							<tr class="border-bottom">

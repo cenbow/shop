@@ -2,7 +2,7 @@
 		<div class="content padding-big">
 			<?php if(!isset($cloud)):?>
 			<div class="warn-info border bg-white margin-top padding-lr">
-				<i class="warn-info-ico ico_warn margin-right"></i>您还未绑定您的合一云平台，请先绑定账号后才可使用云平台功能！
+				<i class="warn-info-ico ico_warn margin-right"></i>您还未绑定您的奕瑞平台，请先绑定账号后才可使用云平台功能！
 			</div>
 			<?php endif?>
 			<div class="margin-top">

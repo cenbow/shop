@@ -46547,11 +46547,11 @@ REPLACE INTO `hd_order_tpl_parcel` (`id`, `name`, `content`, `update_time`) VALU
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td><td style="width:33%;" rowspan="3"><p style="font-size:200%;text-align:center; display:block; overflow:hidden;">商品发货单</p></td><td style="width:33%;text-align:center;" rowspan="2"><span style="font-size: 20px;"></span><img style="float:left;height:100%;" src="../../../../statics/images/logo_1.gif"/>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td></tr><tr></tr><tr><td style="text-align:center;"><span style="font-size:120%;">{order_sn}</span>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td></tr></tbody></table><table style="width:100%;margin:2.5% 0px 1% 0px;" border="0"><tbody><tr class="firstRow" style="width:100%;"><td style="width:40%;">收货人：{accept_name}</td><td style="width:26%;">电话：{mobile}</td><td style="width:33%;">&nbsp;</td><td style="width:33%;"></td></tr><tr style="width:100%;"><td style="width: 40%; word-break: break-all;">收货地址: {address}</td><td style="width: 27%; word-break: break-all;">配送公司：{delivery_txt}</td><td style="width:33%;">打印时间：{print_time}</td><td style="width:33%;"></td></tr><tr style="width:100%;"><td style="width: 33%; word-break: break-all;" colspan="4">订单号：{order_sn}</td></tr></tbody></table><h3 style="float: left;">商品清单</h3><table style="text-align:center;" class="goodslist" border="1" cellspacing="0" width="100%"><tbody><tr class="firstRow"><th style="border-bottom:1px solid #000000;">序号</th><th style="border-bottom:1px solid #000000;">商品货号</th><th style="border-bottom:1px solid #000000;">商品名称</th><th style="border-bottom:1px solid #000000;">规格</th><th style="border-bottom:1px solid #000000;">单价</th><th style="border-bottom:1px solid #000000;">数量</th><th style="border-bottom:1px solid #000000;">金额</th><th style="border-bottom:1px solid #000000;">操作</th><th style="border-bottom:1px solid #000000;"></th></tr><tr id="goodslist"><td style="border-bottom:1px solid #000000;">{sort_id}</td><td style="border-bottom:1px solid #000000;">{products_sn}</td><td style="border-bottom:1px solid #000000;">{goods_name}</td><td style="border-bottom:1px solid #000000;">{goods_spec}</td><td style="border-bottom:1px solid #000000;"><span style="font-family: sans-serif; font-size: 16px; font-style: normal; font-variant: normal; line-height: normal; text-align: center; white-space: normal;">{shop_price}</span></td><td style="border-bottom:1px solid #000000;">{number}</td><td style="border-bottom:1px solid #000000;">{total_goods_price}</td><td style="border-bottom:1px solid #000000;cursor:hand; cursor:pointer;" class="delete">删除</td><td style="border-bottom:1px solid #000000;"></td></tr><tr><td style="border-bottom:0px solid #000000;">&nbsp;</td><td style="border-bottom:0px solid #000000;">&nbsp;</td><td style="border-bottom:0px solid #000000;">&nbsp;</td><td style="border-bottom:0px solid #000000;">合计</td><td style="border-bottom:0px solid #000000;" class="total_num">{total_num}</td><td style="border-bottom:0px solid #000000;" class="total_price">{total_price}</td><td style="border-bottom:0px solid #000000;"></td><td style="border-bottom:0px solid #000000;"></td></tr></tbody></table><table style="width: 100%; margin-top: 20%;" border="0"><tbody><tr class="firstRow"><td rowspan="3" style="width:5%;"><img style="float:left;" src="../../../../statics/images/logo_1.gif"/>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td><td colspan="10" style="width:5%;">合一云商</td><td style="width:5%;">&nbsp;</td></tr><tr><td colspan="10" style="width:5%;">最灵活的企业级电子商务系统软件</td><td style="width:5%;">&nbsp;</td></tr><tr><td colspan="10" style="width:5%;">客服电话：400-600-2042</td><td style="width:5%;">1/1</td></tr><tr><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td></tr></tbody></table>', 1449763548);
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td><td colspan="10" style="width:5%;">奕瑞</td><td style="width:5%;">&nbsp;</td></tr><tr><td colspan="10" style="width:5%;">最灵活的企业级电子商务系统软件</td><td style="width:5%;">&nbsp;</td></tr><tr><td colspan="10" style="width:5%;">客服电话：400-600-2042</td><td style="width:5%;">1/1</td></tr><tr><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td></tr></tbody></table>', 1449763548);
 
 REPLACE INTO `hd_setting` (`key`, `value`) VALUES
-	('site_name', '合一云商'),
-	('com_name', '合一云科技有限公司'),
+	('site_name', '奕瑞'),
+	('com_name', '奕瑞科技有限公司'),
 	('site_url', 'http://www.yaozihao.cn'),
 	('icp', '滇ICP备13005806号'),
 	('site_isclosed', '1'),
@@ -46572,7 +46572,7 @@ REPLACE INTO `hd_setting` (`key`, `value`) VALUES
 	('reg_allow', '1'),
 	('reg_closedreason', '系统维护，暂停注册。'),
 	('reg_user_fields', 'a:2:{i:0;s:5:"email";i:1;s:5:"phone";}'),
-	('reg_user_censor', '管理员*\r\n*合一*'),
+	('reg_user_censor', '管理员*\r\n*奕瑞*'),
 	('pays', 'a:4:{i:0;s:6:"alipay";i:1;s:4:"bank";i:2;s:6:"ws_wap";i:3;s:9:"wechat_qr";}'),
 	('pay_type', '1'),
 	('reg_pass_lenght', '6'),
@@ -46596,16 +46596,16 @@ REPLACE INTO `hd_delivery` (`id`, `name`, `identif`, `enabled`, `logo`, `insure`
 	(9, '德邦快递', 'debang', 1, '', 0.00, NULL, 100, 1450089699),
 	(10, '国通快递', 'guotong', 1, '', 0.00, NULL, 100, 1450175358);
 
-INSERT INTO `hd_app` VALUES ('1', 'module.admin', '后台模块', '核心模块，用于后台  各项功能模块及功能拓展', '1', '合一研发团队', '1.0.0', 'http://www.yaozihao.cn', '', '0', '100', '1', '');
-INSERT INTO `hd_app` VALUES ('2', 'module.goods', '商品模块', '商品编辑、展示以及管理系统', '1', '合一研发团队', '1.0.0', '', '', '0', '100', '1', '');
-INSERT INTO `hd_app` VALUES ('3', 'module.order', '订单模块', '独立订单系统，支持智能拆分订单和物流分单，包含物流追踪', '1', '合一研发团队', '1.0.0', '', '', '0', '100', '1', '');
-INSERT INTO `hd_app` VALUES ('4', 'module.member', '会员模块', '会员管理系统', '1', '合一研发团队', '1.0.0', '', '', '0', '100', '1', '');
-INSERT INTO `hd_app` VALUES ('5', 'module.attachment', '附件模块', '提供附件管理及上传功能', '1', '合一研发团队', '1.0.0', '', '', '0', '100', '1', '');
-INSERT INTO `hd_app` VALUES ('6', 'module.ads', '广告模块', '添加并管理广告位及广告', '1', '合一研发团队', '1.0.0', '', '', '0', '100', '1', '');
-INSERT INTO `hd_app` VALUES ('7', 'module.comment', '商品评价', '提供会员评价晒单及评价管理功能', '1', '合一研发团队', '1.0.0', '', '', '0', '100', '1', '');
-INSERT INTO `hd_app` VALUES ('8', 'module.misc', '杂项模块', '辅助系统，用于管理友链等数据', '1', '合一研发团队', '1.0.0', '', '', '0', '100', '1', '');
-INSERT INTO `hd_app` VALUES ('9', 'module.notify', '通知模块', '通知系统，可用于管理及拓展各类通知方式', '1', '合一研发团队', '1.0.0', '', '', '0', '100', '1', '');
-INSERT INTO `hd_app` VALUES ('11', 'module.pay', '支付模块', '支付系统，可用于管理及拓展各类支付方式', '1', '合一研发团队', '1.0.0', '', '', '0', '100', '1', '');
-INSERT INTO `hd_app` VALUES ('12', 'module.promotion', '运营模块', '运营辅助系统，可管理各项活动运营方式及拓展新的运营功能', '1', '合一研发团队', '1.0.0', '', '', '0', '100', '1', '');
-INSERT INTO `hd_app` VALUES ('13', 'module.statistics', '统计模块', '统计系统，用于记录和统计系统各项数据，可拓展新的数据分析', '1', '合一研发团队', '1.0.0', '', '', '0', '100', '1', '');
-INSERT INTO `hd_app` VALUES ('14', 'module.wap', '微店模块', '微店模块, 用于设置wap端设置展示以及管理系统', '1', '合一研发团队', '1.0.0', 'http://www.yaozihao.cn', '', '0', '100', '1', '');
+INSERT INTO `hd_app` VALUES ('1', 'module.admin', '后台模块', '核心模块，用于后台  各项功能模块及功能拓展', '1', '奕瑞研发团队', '1.0.0', 'http://www.yaozihao.cn', '', '0', '100', '1', '');
+INSERT INTO `hd_app` VALUES ('2', 'module.goods', '商品模块', '商品编辑、展示以及管理系统', '1', '奕瑞研发团队', '1.0.0', '', '', '0', '100', '1', '');
+INSERT INTO `hd_app` VALUES ('3', 'module.order', '订单模块', '独立订单系统，支持智能拆分订单和物流分单，包含物流追踪', '1', '奕瑞研发团队', '1.0.0', '', '', '0', '100', '1', '');
+INSERT INTO `hd_app` VALUES ('4', 'module.member', '会员模块', '会员管理系统', '1', '奕瑞研发团队', '1.0.0', '', '', '0', '100', '1', '');
+INSERT INTO `hd_app` VALUES ('5', 'module.attachment', '附件模块', '提供附件管理及上传功能', '1', '奕瑞研发团队', '1.0.0', '', '', '0', '100', '1', '');
+INSERT INTO `hd_app` VALUES ('6', 'module.ads', '广告模块', '添加并管理广告位及广告', '1', '奕瑞研发团队', '1.0.0', '', '', '0', '100', '1', '');
+INSERT INTO `hd_app` VALUES ('7', 'module.comment', '商品评价', '提供会员评价晒单及评价管理功能', '1', '奕瑞研发团队', '1.0.0', '', '', '0', '100', '1', '');
+INSERT INTO `hd_app` VALUES ('8', 'module.misc', '杂项模块', '辅助系统，用于管理友链等数据', '1', '奕瑞研发团队', '1.0.0', '', '', '0', '100', '1', '');
+INSERT INTO `hd_app` VALUES ('9', 'module.notify', '通知模块', '通知系统，可用于管理及拓展各类通知方式', '1', '奕瑞研发团队', '1.0.0', '', '', '0', '100', '1', '');
+INSERT INTO `hd_app` VALUES ('11', 'module.pay', '支付模块', '支付系统，可用于管理及拓展各类支付方式', '1', '奕瑞研发团队', '1.0.0', '', '', '0', '100', '1', '');
+INSERT INTO `hd_app` VALUES ('12', 'module.promotion', '运营模块', '运营辅助系统，可管理各项活动运营方式及拓展新的运营功能', '1', '奕瑞研发团队', '1.0.0', '', '', '0', '100', '1', '');
+INSERT INTO `hd_app` VALUES ('13', 'module.statistics', '统计模块', '统计系统，用于记录和统计系统各项数据，可拓展新的数据分析', '1', '奕瑞研发团队', '1.0.0', '', '', '0', '100', '1', '');
+INSERT INTO `hd_app` VALUES ('14', 'module.wap', '微店模块', '微店模块, 用于设置wap端设置展示以及管理系统', '1', '奕瑞研发团队', '1.0.0', 'http://www.yaozihao.cn', '', '0', '100', '1', '');
