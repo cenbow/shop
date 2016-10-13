@@ -1,6 +1,6 @@
 <?php include template('header','admin');?>
 		<div class="header layout">
-			<div class="logo"><img src="./statics/images/logo.png" /></div>
+<!--			<div class="logo"><img src="./statics/images/logo.png" /></div>-->
 			<div class="site-menu border-menu">
 				<ul>
 					<li><a class="current" href="javascript:;" data-id="0">首页</a></li>
@@ -64,7 +64,7 @@
 				<a class="bottom" href="javascript:;"></a>
 			</div>
 			<div class="copy">
-				<p>Powered by <a href="javascript:;" target="_blank">Heyi</a><br/>Copyright 2013-2016 HeYiYun</p>
+				<p>Powered by <a href="javascript:;" target="_blank">Heyi</a><br/>Copyright 2013-2016  </p>
 			</div>
 		</div>
 		<div class="wrapper" id="main">

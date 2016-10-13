@@ -248,7 +248,7 @@
 				</dl>
 			</div>
 			<div class="container copyright border-top border-gray-white padding-tb clearfix">
-				<p class="cop-left fl w50 text-lh-small">Powered by Heyi v1.5.0.150524_beta<br />© 2013-2015 HeYiYun Inc.</p>
+				<p class="cop-left fl w50 text-lh-small">Powered by Heyi v1.5.0.150524_beta<br />© 2013-2015   Inc.</p>
 				<div class="cop-right fr text-right w50">
 					<p class="text-lh-small"><a href="">手机版</a> | <a href="">奕瑞</a> | <a href="">滇ICP备13005806号</a> | <a href="">站点统计</a></p>
 					<p class="text-lh-small">PRC, 2015-05-24 15:55:53</p>
