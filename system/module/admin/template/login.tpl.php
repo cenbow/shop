@@ -11,7 +11,7 @@
 	<body>
 		<div class="login-wrapper">
 			<div class="left fl">
-				<span class="logo"><img src="<?php echo __ROOT__;?>statics/images/login_logo.png" /></span>
+				<span class="logo"><img src="<?php echo __ROOT__;?>statics/images/logo.png" /></span>
 				<p class="margin-big-top"><a class="text-sub" href="http://www.yaozihao.cn/">奕瑞系统</a> 是 <a class="text-sub" href="http://www.yaozihao.cn/">奕瑞</a>公司旗下以电子商务为基础的专业网店建站系统，专注电子商务运营服务。</p>
 			</div>
 			<div class="right fr">
