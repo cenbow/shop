@@ -17,9 +17,9 @@
 		<!--Banner end-->
 		{hook/banner_between_content}
 		<!--content-->
-		<div class="container border-bottom border-gray-white clearfix">
+		<div class="container #border-bottom #border-gray-white clearfix">
 			<div class="fl index-activity">
-				<ul class="tab layout border-bottom border-gray-white clearfix goods_lists">
+				<ul class="tab layout text-big #border-bottom #border-gray-white clearfix goods_lists">
 				{hd:goods tagfile="goods" method="page" statusext="3" num="5"}
 				{if $data['count'] > 0}
 					<li class="current" data-id="3">
@@ -58,40 +58,42 @@
 			</div>
 			<div class="fr margin-top notice">
 				<div class="news-plate">
-					<div class="title border-bottom border-gray-white">
-						<div class="border-left border-small border-sub padding-left text-sub">文章资讯
-						<em style="float:right;"><a href="{url('misc/index/article_lists',array('category_id'=>'all'))}">更多</a></em>
+					<div class="title #border-bottom #border-gray-white">
+						<div class="padding-left text-sub">文章资讯
+						<em style="float:right;"><a href="{url('misc/index/article_lists',array('category_id'=>'all'))}" class="text-default">更多</a></em>
 						</div>
 					</div>
-					<ul class="content margin-small-top">
-						{hd:misc method="lists" num="5" where="recommend=1" tagfile="article" order="sort ASC"}
+					<ul class="content margin-big-top">
+						{hd:misc method="lists" num="8" where="recommend=1" tagfile="article" order="sort ASC"}
 						{loop $data $k $r}
 						<li><em>·</em><a {if $k < 2 }class="hot"{/if} target="_blank" href="{url('misc/index/article_detail',array('id'=>$r['id']))}" title="{$r[title]}">{$r[title]}</a></li>
 						{/loop}
 						{/hd}
 					</ul>
 				</div>
-				<div class="brand-text">
-					<div class="title padding-bottom padding-top">
-						<div class="border-left border-small border-sub padding-left text-sub">推荐品牌</div>
-					</div>
-					<ul>
-					{hd:goods tagfile="brand" method="lists" num="4"}
-					{loop $data $r}
-						<li><a href="{url('goods/index/brand_list',array('id'=>$r['id']))}">{$r[name]}</a></li>
-					{/loop}
-					{/hd}
-					</ul>
-				</div>
 			</div>
 		</div>
+		<!--
+		<div class="container brand-text news-plate">
+			<div class="title padding-bottom padding-top">
+				<div class="text-sub">推荐品牌</div>
+			</div>
+			<ul>
+			{hd:goods tagfile="brand" method="lists" num="10"}
+			{loop $data $r}
+				<li><a href="{url('goods/index/brand_list',array('id'=>$r['id']))}">{$r[name]}</a></li>
+			{/loop}
+			{/hd}
+			</ul>
+		</div>
+		-->
 		{hook/misc_between_like}
 		<!--猜您喜欢-->
-		<div class="container padding-big-top">
-			<div class="layout border border-gray-white item-blue-top pro-border-top-gray">
+		<div class="container padding-large-top">
+			<div class="layout #border #border-gray-white #item-blue-top #pro-border-top-gray">
 				<ul class="tab p-tab-trigger-wrap">
 					<li class="ui-switchtab-item current"><a href="javascript:;">猜您喜欢</a></li>
-					<div class="fr margin-big-right text-lh-30"><span>换一批<b class="margin-left refresh change_goods"></b></span>
+					<div class="fr refresh-bottom border margin-big-right text-lh-30"><span>换一批<b class="margin-left refresh change_goods"></b></span>
 					</div>
 				</ul>
 
@@ -116,7 +118,7 @@
 		{hd:goods tagfile="category" method="lists" catid="0"}
 		{loop $data $k $r}
 		<?php $catid = $r['id']?>
-		<div class="floor container padding-big-top clearfix">
+		<div class="floor container padding-large-top clearfix">
 			<div class="floor-info tab">
 				<div class="floor-logo"><?php echo $k+1?>F</div>
 				<h3>{$r[name]}</h3>
@@ -218,8 +220,9 @@
 				<a href="#"><i class="tab-ico"></i></a>
 			</div>
 		</div>
-		<div class="layout border-top border-gray-white global-footer margin-big-top">
-		<div class="layout border border-main"></div>
+		<!--<div class="layout #border-top #border-gray-white #global-footer #margin-big-top">-->
+		<div class="layout global-footer ">
+		<!--<div class="layout border border-main"></div>-->
 			<div class="container hd-service clearfix">
 				{hd:misc method="lists" num="5" tagfile="help" id="0" order="sort asc"}
 				{loop $data $r}
@@ -235,12 +238,14 @@
 				</dl>
 				{/loop}
 				{/hd}
+				<!--
 				<dl class="fore last fr">
-					<dt>&nbsp;<!-- 奕瑞：www.yaozihao.cn --></dt>
+					<dt>&nbsp;</dt>
 					<dd>
 						<span><img src="{SKIN_PATH}statics/images/logo.png" width="158" /></span>
 					</dd>
 				</dl>
+				-->
 			</div>
 			<div class="friend-link padding-large-top container">
 				<dl class="clearfix">

@@ -214,7 +214,7 @@
 							<span class="text-mix">￥{$sku['sku_price']}</span>
 						</div>
 						<div class="td4">
-							<span>￥0</span>
+							<span>￥<?php echo $sku['sku_price']*$sku['buy_nums']+$detail['delivery_price']-$detail['_main']['paid_amount']?></span>
 						</div>
 						<div class="td5">
 							<div class="cart-hand">
@@ -231,7 +231,7 @@
 								{if ($setting[return_time] == 2 && $sku[delivery_status] == 2)}
 								<a class="default-btn" href="{url('member/service/return_refund',array('id' => $sku[id]))}" target="_blank">售后</a>
 								{/if}
-
+								
 							</div>
 						</div>
 					</div>

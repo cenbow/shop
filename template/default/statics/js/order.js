@@ -138,10 +138,7 @@ var hd_order = (function() {
 					}
 					delivery_box.html(_html);
 				})
-				var _sellerid = $("[data-sellerid]").data('sellerid');
-        		order_params.deliverys[_sellerid] = $("[data-sellerid]").find("[data-model='delivery']").find(".selected").attr("delivery-district-id");
-				order_params.district_id = $("[data-model=districts]").find(".choose").data('district');
-				hd_order._get(order_params);
+				hd_order._get();
 			})
 		},
 

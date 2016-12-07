@@ -1,5 +1,5 @@
-	<div class="layout border-top border-gray-white global-footer margin-big-top">
-		<div class="layout border border-main"></div>
+	<div class="layout @border-top @border-gray-white global-footer margin-big-top">
+		<!-- <div class="layout border border-main"></div> -->
 			<div class="container hd-service clearfix">
 				{hd:misc method="lists" num="5" tagfile="help" id="0" order="sort asc"}
 				{loop $data $r}
@@ -16,10 +16,10 @@
 				{/loop}
 				{/hd}
 				<dl class="fore last">
-					<dt>&nbsp;<!-- 奕瑞：www.yaozihao.cn --></dt>
-					<dd>
+					<dt>&nbsp;</dt>
+					<!-- <dd>
 						<span><img class="footer-logo" src="{SKIN_PATH}statics/images/logo.png" width="158" /></span>
-					</dd>
+					</dd> -->
 				</dl>
 			</div>
 			{hook/help_between_link data}

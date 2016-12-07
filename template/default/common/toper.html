@@ -22,14 +22,20 @@
 </head>
 <body>
 	<!-- 顶部工具条 -->
-	<div class="layout border-bottom bg-gray-white">
+	<!--<div class="layout border-bottom bg-gray-white">-->
+	<div class="layout">
 		<div class="site-bar container">
+			<!--
 			<ul class="fl">
 				<li><a class="fun-homepage" href="javascript:;">设为首页</a></li>
 				<li class="spacer"></li>
 				<li><a class="fun-favorite" href="javascript:;">收藏本站</a></li>
 				{hook/left_site_bar data}
 			</ul>
+			-->
+			<div class="logo fl">
+				<span><a href="{__APP__}"><img width="190px" height="64px" src="<?php $cache = cache('setting'); echo $cache['site_logo'] ? __ROOT__.$cache['site_logo'] : __ROOT__.'template/default/statics/images/logo.png' ?>" /></a></span>
+			</div>
 			{hook/mid_site_bar data}
 			<ul class="fr">
 				<?php if ($member['id']): ?>
